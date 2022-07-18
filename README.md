@@ -1,7 +1,7 @@
 ## Technologies Used
 
 node >= 16.16.0.  
-I've use ES6 modules in my nodejs code. It makes context switching between frontend code and server side code easier for me.
+I use ES6 modules in my nodejs code. It makes context switching between frontend code and server side code easier for me.
 
 ## Dependicies
 axios for http requests    
