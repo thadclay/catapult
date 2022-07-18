@@ -3,7 +3,7 @@
 node >= 16.16.0.  
 I use ES6 modules in my nodejs code. It makes context switching between frontend code and server side code easier for me.
 
-## Dependicies
+## Dependencies
 axios for http requests    
 jest for running tests  
 
