@@ -9,7 +9,7 @@ jest for running tests
 
 ## How To Run
 You have to set an environment variable with the auth key like below.   
-```AUTH='Basic some_auth_key_here_please' npm test```
+```AUTHTOKEN='some_auth_key_here_please' npm test```
 
 ## Observations   
 dictionaryapi create  
