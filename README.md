@@ -8,7 +8,7 @@ axios for http requests
 jest for running tests  
 
 ## How To Run
-You have to set an environment variable with the auth key like below.   
+You have to set an environment variable with the auth token like below.   
 ```AUTHTOKEN='some_auth_key_here_please' npm test```
 
 ## Observations   
@@ -28,4 +28,4 @@ Unauthorized tests
   ✓ delete dictionary - Working as expected. Returns status code 401. 
   ✓ create/modify pair - Working as expected. Returns status code 401. 
 
-I also noticed that none of the delete methods delete data although the responses returned are stating that the delete was successful. I queried those dictionaries/keys again with the Get all Keys and Get a Value api's and the deleted dictionary or value that I requested to be deleted still was returned.
+I also noticed that none of the delete methods delete data although the responses returned are stating that the delete was successful. I queried those dictionaries/keys again with the Get all Keys and Get a Value api's and the deleted dictionary or value that I requested to be deleted was returned.
