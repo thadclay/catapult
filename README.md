@@ -4,8 +4,9 @@ node >= 16.16.0.
 I use ES6 modules in my nodejs code. It makes context switching between frontend code and server side code easier for me.
 
 ## Dependencies
-axios for http requests    
-jest for running tests  
+axios - for http requests    
+jest - for running tests  
+@babel/plugin-transform-modules-commonjs - used so jest can run es6 modules   
 
 ## How To Run
 You have to set an environment variable with the auth token like below.   
